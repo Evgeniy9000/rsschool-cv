@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 16px;
+
+}
+
+header {
+    background-image: url(../images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 765px;
+
+}
+
+.header_logo {
+    margin-left: 60px;
+    cursor: pointer;
+
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F2785C;
+    opacity: 0.7;
+    height: 90px;
+    border-bottom: 3px solid #0D606F;
+
+}
+
+.header_list {
+    width: 540px;
+}
+
+.nav_ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav_ul li {
+    color: #ffff;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.header_button_login {
+    background-color: #0D606F;
+    color: #ffff;
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 120px;
+
+
+
+}
+
+.header_text {
+    color: #ffff;
+    width: 780px;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.header_text_h1 h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.header_text_h2 h2 {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.header_input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 880px;
+    height: 90px;
+    background-color: #ffff;
+    opacity: 0.8;
+    border-radius: 9px;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.input_text h2 {
+    color: #F2785C;
+    font-size: 22px;
+    font-weight: 500;
+    font-style: italic;
+    margin-left: 40px;
+}
+
+.button_input {
+    background-color: #0d606f;
+    color: #ffff;
+    width: 228px;
+    height: 60px;
+    border-radius: 9px;
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+.steps {
+    height: 420px;
+}
+
+.steps_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.steps_text h2 {
+    margin-top: 75px;
+    color: #F2785C;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 40px;
+
+}
+
+.steps_wrapper {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.steps_icon_text {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.steps_icon_text h3 {
+    color: #0D606F;
+    font-size: 20px;
+    font-weight: 200;
+
+}
+
+.destinations {
+    height: 1050px;
+}
+
+.destinations_slider img {
+    height: 800px;
+    width: 800px;
+
+}
+
+.destinations_slider img:not(:last-child) {
+    margin-right: 20px;
+}
+
+.destinations_text {
+    display: flex;
+    justify-content: center;
+}
+
+.destinations_text h2 {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    color: #F2785C;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.destinations_slider {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.destinations_ellipse {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.destinations_ellipse img {
+    margin-right: 8px;
+}
+
+.destinations_button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.FindMore {
+    display: flex;
+    align-items: center;
+    width: 220px;
+    height: 55px;
+    background-color: #0D606F;
+    color: #ffff;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.FindMore img {
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+.stories_wrapper {
+
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.stories_text h2 {
+    margin-bottom: 55px;
+    color: #F2785C;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.stories_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stories_wrapper_content {
+
+    margin-left: 120px;
+    margin-right: 120px;
+
+}
+
+.stories_thailand,
+.stories_utah,
+.stories_mountains,
+.stories_longest {
+    display: flex;
+    justify-content: center;
+
+}
+
+.stories_thailand img,
+.stories_utah img,
+.stories_mountains img,
+.stories_longest img {
+    margin-top: 30px;
+}
+
+.stories_thailand_text h2,
+.stories_utah_text h2,
+.stories_mountains_text h2,
+.stories_longest_text h2 {
+    display: flex;
+    margin-bottom: 25px;
+    color: #0D606F;
+    font-size: 35px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.stories_thailand_text,
+.stories_utah_text,
+.stories_mountains_text,
+.stories_longest_text {
+    margin-left: 30px;
+}
+
+.stories_thailand_text h3,
+.stories_utah_text h3,
+.stories_mountains_text h3,
+.stories_longest_text h3 {
+    color: #0D606F;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.stories_thailand_text h4,
+.stories_utah_text h4,
+.stories_mountains_text h4,
+.stories_longest_text h4 {
+    color: #0D606F;
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.stories_button_see {
+    display: flex;
+    align-items: center;
+    width: 220px;
+    height: 55px;
+    background-color: #0D606F;
+    color: #ffff;
+    border-radius: 9px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;
+
+
+}
+
+.stories_button_see img {
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+.stories_button {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.footer_wrapper {
+    background-image: url(../images/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    height: 60px;
+
+
+}
+
+.footer_text h3 {
+    margin-top: 20px;
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 100;
+
+
+}
+
+.footer_social {
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+    margin-left: 30%;
+
+
+}
+
+.footer_social img {
+    height: 30px;
+    width: 30px;
+    margin-right: 7px;
+}
