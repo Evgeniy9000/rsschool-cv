@@ -1,0 +1,211 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Joan', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: 400;
+    line-height: 1.5;
+
+}
+
+.main {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.nav {
+    background-color: #3338697a;
+
+}
+
+.nav-item {
+    font-size: 20px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .2s;
+
+}
+
+.nav {
+    height: 100%;
+    margin-bottom: 50px;
+}
+
+.nav-list {
+    margin-right: 60px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-item a:hover {
+    color: aquamarine;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: #626262;
+}
+
+.section-title img {
+    height: 300px;
+    width: 250px;
+    border-radius: 5%;
+
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+.section-title {
+    border-bottom: solid 2px #626262;
+}
+.profile_text h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.profile_text p {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.contacts {
+    margin-bottom: 40px;
+}
+
+.contacts_text h2 {
+    margin-top: 20px;
+}
+.contacts h2 {
+    margin-bottom: 20px;
+}
+
+.summary h2 {
+    margin-bottom: 20px;
+}
+.summar_text h2 {
+    margin-top: 20px;
+}
+.summary {
+    margin-bottom: 40px;
+}
+
+.contacts_summary {
+    margin-bottom: 50px;
+}
+
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.skills_code {
+    margin-bottom: 50px;
+}
+
+.skills h2 {
+    margin-bottom: 20px;
+}
+
+.code_text h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.code_text_function {
+    margin-bottom: 30px;
+}
+
+.skills_text ul {
+    margin-bottom: 50px;
+}
+
+.courses_education_english {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.courses_text {
+    margin-right: 25px;
+
+}
+
+.education_text {
+    margin-right: 25px;
+}
+
+.english_text {
+    margin-right: 25px;
+}
+
+.container_footer {
+    font-size: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-top: 5px;
+}
+
+.footer {
+    background-color: #3338697a;
+    height: 50px;
+}
+
+.footer_text p {
+    color: white;
+    font-size: 20px;
+}
+
+.footer_logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
