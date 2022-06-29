@@ -1,1 +1,1 @@
-https://Evgeniy9000.github.io/travel/travel/
+https://evgeniy9000-travel.netlify.app/
