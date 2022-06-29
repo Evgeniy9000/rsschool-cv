@@ -1,1 +1,1 @@
-https://rolling-scopes-school.github.io/Evgeniy9000/travel/travel/
+https://Evgeniy9000.github.io/travel/travel/
