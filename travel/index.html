@@ -11,7 +11,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300;0,400;0,500;1,300&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    
 </head>
 
 <body>
@@ -30,6 +33,27 @@
                         <li>Travel Stories</li>
                     </ul>
                 </nav>
+
+                <nav class="nav_burg">
+                    <input class="nav__check" type="checkbox" id="showmenu"/>
+                    <label class="nav__showmenu" for="showmenu">&#9776;</label>
+                    <label class="nav__back" for="showmenu"></label>
+                    <ul class="menu">
+                      <li><a class="menu__item" href="#">How It Works</a></li>
+                      <li>
+                        <a class="menu__item" href="#">Plan Your Trip</a>
+                        
+                        
+                      </li>
+                      <li><a class="menu__item" href="#">Destinations</a></li>
+                      
+                      <li><a class="menu__item" href="#">Travel Stories</a></li>
+                      <li><a class="menu__item" href="#">Account</a></li>
+                      <li><a class="menu__item" href="#">Social Media</a></li>
+                    </ul>
+                  </nav>
+                  
+
                 <div class="header_button">
                     <button class="header_button_login">Login</button>
                 </div>
@@ -109,7 +133,10 @@
                 <img src="./images/spain.jpg" alt="spain">
                 <img src="./images/japan.jpg" alt="japan">
                 <img src="./images/usa.jpg" alt="usa">
+                
             </div>
+            
+
             <div class="destinations_ellipse">
                 <img src="./images/Ellipse1.png" alt="ellipse">
                 <img src="./images/Ellipse2.png" alt="ellipse">
@@ -251,6 +278,7 @@
     </footer>
 
 
+    <script src="./script.js"></script>
 </body>
 
 </html>
