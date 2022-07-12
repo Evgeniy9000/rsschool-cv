@@ -1,0 +1,87 @@
+@media screen and (max-width: 1440px) {
+  .nav_burg {
+    visibility: hidden;
+
+
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .destinations_slider_390 {
+    visibility: hidden;
+
+
+  }
+}
+
+
+@media screen and (max-width: 390px) {
+  .nav_burg {
+    visibility: visible;
+
+
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .destinations_slider img {
+    justify-content: last baseline;
+
+
+  }
+}
+
+
+@media screen and (max-width: 390px) {
+
+  .header_list,
+  .header_button,
+  .header_nav,
+  .header_text,
+  .footer_text {
+    visibility: hidden;
+
+
+
+  }
+}
+
+@media screen and (max-width: 390px) {
+
+  .footer_social img {
+
+    justify-content: center;
+
+
+
+  }
+}
+
+@media screen and (max-width: 390px) {
+
+  .footer_wrapper {
+
+    justify-content: flex-start;
+
+
+
+  }
+}
+
+
+@media screen and (max-width: 390px) {
+  .header_logo {
+
+
+    visibility: visible;
+
+  }
+
+  header {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+
+
+
+}
